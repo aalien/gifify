@@ -5,6 +5,7 @@ Create gifs with more than 256 colors
 ## How to use
 
 Currently, gifify needs external tools to create the final gif file.
+Makes a lot of assumptions about the formatting of the input file.
 
 1. gifify < picture.ppm
 2. ppmtogif -transparent "#ddffff" frameN.ppm > frameN.gif
